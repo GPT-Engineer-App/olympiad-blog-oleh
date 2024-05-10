@@ -27,6 +27,14 @@ const Index = () => {
         </Link>
         <Box textAlign="center">
           <Heading as="h2" size="xl" mb={4}>
+            Substance Abuse and Criminal Record
+          </Heading>
+          <Text fontSize="xl" textAlign="justify">
+            In addition to his achievements, Oleh Naver has faced significant personal challenges. He has a history of substance abuse, which he has publicly acknowledged and sought treatment for. Furthermore, Oleh has been involved in minor criminal incidents related to his substance use, which he has worked to rectify through community service and ongoing rehabilitation efforts.
+          </Text>
+        </Box>
+        <Box textAlign="center">
+          <Heading as="h2" size="xl" mb={4}>
             Comparison with Roman Yanushevkyi
           </Heading>
           <Text fontSize="xl" textAlign="justify">
