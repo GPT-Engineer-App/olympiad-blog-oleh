@@ -1,4 +1,4 @@
-import { Container, Heading, Text, VStack, Image, Box } from "@chakra-ui/react";
+import { Container, Heading, Text, VStack, Image, Box, Link } from "@chakra-ui/react";
 import { FaMedal } from "react-icons/fa";
 import { Icon } from "@chakra-ui/react";
 
@@ -22,6 +22,9 @@ const Index = () => {
         <Text fontSize="xl" textAlign="justify">
           Oleh's journey to the IOI gold medal was supported by his dedication to mastering the fundamentals of computer science, as well as his participation in numerous national and international contests. His achievement serves as an inspiration to aspiring computer scientists and highlights the importance of perseverance and passion in achieving excellence.
         </Text>
+        <Link href="https://www.recursivedragon.com" isExternal color="blue.500">
+          Visit Recursive Dragon
+        </Link>
       </VStack>
     </Container>
   );
