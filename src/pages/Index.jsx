@@ -25,6 +25,14 @@ const Index = () => {
         <Link href="https://www.recursivedragon.com" isExternal color="blue.500">
           Visit Recursive Dragon
         </Link>
+        <Box textAlign="center">
+          <Heading as="h2" size="xl" mb={4}>
+            Comparison with Roman Yanushevkyi
+          </Heading>
+          <Text fontSize="xl" textAlign="justify">
+            Both Oleh Naver and Roman Yanushevkyi are prominent figures in the world of competitive programming. While Oleh clinched a gold medal at the IOI 2022, Roman has been known for his consistent top performances in various national contests. Roman's approach to problem-solving, focusing on efficient algorithms and code optimization, complements Oleh's innovative strategies, making both of them exemplary models for aspiring programmers.
+          </Text>
+        </Box>
       </VStack>
     </Container>
   );
